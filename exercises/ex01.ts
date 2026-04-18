@@ -12,8 +12,8 @@ const reservation: {
 } = {
 	customerInformation: 1,
 	paymentInformation: "Credit",
-	checkOut: "2024-07-01",
-	checkIn: "2024-06-30",
+	checkOut: new Date("2026-04-20"),
+	checkIn: new Date("2026-04-17"),
 };
 
 console.log(reservation);
