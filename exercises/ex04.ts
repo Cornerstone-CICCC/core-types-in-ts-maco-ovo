@@ -26,7 +26,5 @@ const locations: Location[] = [location1, location2];
 
 locations.forEach((location) => {
 	console.log(`Description: ${location.description}`);
-	console.log(
-		`Coordinates: X= ${location.coordinates[0]}, Y= ${location.coordinates[1]}`,
-	);
+	console.log(`Coordinates: X= ${location.coordinates[0]}, Y= ${location.coordinates[1]}`);
 });

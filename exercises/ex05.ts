@@ -13,4 +13,16 @@ enum Day {
   THURSDAY,
   FRIDAY,
   SATURDAY
+};
+
+interface Race {
+    participants: string[];
+    first: string;
+    second: string;
+    third: string;
+    day: Day;
 }
+
+
+const RaceDay: Day = Day.FRIDAY;
+console.log(`The race day index: ${RaceDay}`);
